@@ -1,0 +1,28 @@
+{
+  "name": "azure-devops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild task/index.ts --bundle --outfile=task/index.js --platform=node --format=cjs --minify",
+    "package": "tfx extension create --manifest-globs vss-extension.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerothreatai/azure-devops.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zerothreatai/azure-devops/issues"
+  },
+  "homepage": "https://github.com/zerothreatai/azure-devops#readme",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "azure-devops-extension-sdk": "^4.0.2",
+    "azure-pipelines-task-lib": "^5.1.0",
+    "esbuild": "^0.25.2",
+    "typescript": "^5.8.3"
+  }
+}

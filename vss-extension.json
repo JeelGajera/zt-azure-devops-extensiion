@@ -1,0 +1,33 @@
+{
+    "manifestVersion": 1,
+    "id": "zt-azure-devops",
+    "name": "ZeroThreat AI DAST Scanner",
+    "version": "0.0.1",
+    "publisher": "ZeroThreat AI",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Scan for security issues in web applications/APIs",
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "files": [
+        {
+            "path": "task"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "zt-azure-devops",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "task"
+            }
+        }
+    ]
+}
