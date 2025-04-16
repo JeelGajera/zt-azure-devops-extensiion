@@ -3,7 +3,7 @@
     "id": "zt-azure-devops",
     "name": "ZeroThreat AI DAST Scanner",
     "version": "0.0.1",
-    "publisher": "ZeroThreat AI",
+    "publisher": "ZeroThreatAIDASTScanner",
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
