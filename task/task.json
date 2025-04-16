@@ -2,7 +2,7 @@
     "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
     "id": "afdafd41-14ab-4f75-84ce-0f53f5999911",
     "name": "zt-azure-devops",
-    "friendlyName": "ZeroThreat AI",
+    "friendlyName": "Zero Threat AI DAST Scanner",
     "description": "ZeroThreat AI DAST Scanner",
     "author": "Ajay Ojha",
     "visibility": [
