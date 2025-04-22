@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "zt-azure-devops",
     "name": "ZeroThreat AI DAST Scanner",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "ZeroThreatAIDASTScanner",
     "public": true,
     "targets": [
@@ -14,6 +14,14 @@
     "categories": [
         "Azure Pipelines"
     ],
+    "content": {
+        "details": {
+            "path": "overview.md"
+        },
+        "license": {
+            "path": "LICENSE"
+        }
+    },
     "files": [
         {
             "path": "task"
