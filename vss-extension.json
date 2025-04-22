@@ -4,6 +4,7 @@
     "name": "ZeroThreat AI DAST Scanner",
     "version": "0.0.1",
     "publisher": "ZeroThreatAIDASTScanner",
+    "public": true,
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
