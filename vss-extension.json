@@ -22,6 +22,38 @@
             "path": "LICENSE"
         }
     },
+    "tags": [
+        "DAST",
+        "AppSec",
+        "Security",
+        "build",
+        "release"
+    ],
+    "branding": {
+        "color": "rgb(240,242,255)",
+        "theme": "light"
+    },
+    "links": {
+        "getstarted": {
+            "uri": "https://github.com/zerothreatai/azure-devops#zero-threat-ai-powered-security-scanner"
+        },
+        "license": {
+            "uri": "https://github.com/zerothreatai/azure-devops/blob/main/LICENSE"
+        },
+        "support": {
+            "uri": "https://zerothreat.ai/"
+        },
+        "issues": {
+            "uri": "https://github.com/zerothreatai/azure-devops/issues"
+        }
+    },
+    "icons": {
+        "default": "images/zt_logo.png"
+    },
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/zerothreatai/azure-devops"
+    },
     "files": [
         {
             "path": "task"
